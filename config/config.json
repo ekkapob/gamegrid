@@ -1,0 +1,14 @@
+{
+  "gridRowColumn": "8x8", 
+  "allowEmptyGame": true,
+  "games": [
+    {
+      "name": "A",
+      "score": "8"
+    },
+    {
+      "name": "B",
+      "score": "y-pos"
+    }
+  ]
+}
