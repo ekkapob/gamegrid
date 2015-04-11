@@ -56,7 +56,7 @@ func initializeGamePiece(board Board, config Config) [][]Cell {
 			game := &grid[i][j]
 			game.row = i
 			game.column = j
-			game.gp = randomGamePiece(config.Games, config.AllowEmptyGame)
+			game.gamepiece = randomGamePiece(config.Games, config.AllowEmptyGame)
 		}
 	}
 	return grid
@@ -66,8 +66,8 @@ func drawGrid(grid [][]Cell, player Player) {
 	for i, _ := range grid {
 		for j, cell := range grid[i] {
 			var name, markPlayer string = " ", " "
-			if cell.gp != nil {
-				name = cell.gp.Name
+			if cell.gamepiece != nil {
+				name = cell.gamepiece.Name
 			}
 			if i == player.y && j == player.x {
 				markPlayer = "."
@@ -91,7 +91,7 @@ func getRandomPlayer(board Board) (player Player) {
 }
 
 func clearGamePiece(player Player, grid [][]Cell) {
-	grid[player.y][player.x].gp = nil
+	grid[player.y][player.x].gamepiece = nil
 }
 
 func drawGame(board Board, grid [][]Cell, player Player, totalScore *int) {
