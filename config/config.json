@@ -1,5 +1,7 @@
 {
-  "gridRowColumn": "8x8", 
+  "gridRowColumn": "8x8",
+  "maxRow": 20,
+  "maxColumn": 20,
   "allowEmptyGame": true,
   "games": [
     {
@@ -9,6 +11,10 @@
     {
       "name": "B",
       "score": "y-pos"
+    },
+    {
+      "name": "C",
+      "score": "x-pos"
     }
   ]
 }
