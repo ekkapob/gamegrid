@@ -2,7 +2,7 @@
 
 Board Game with random game pieces in which a player can move left, right, up and down inside to collect game pieces' scores.
 
-![Image of GameGrid](https://raw.githubusercontent.com/ekkapob/gamegrid/master/screen.png)
+![Image of GameGrid](https://raw.githubusercontent.com/ekkapob/gamegrid/master/screen.gif)
 
 ### Game Rules
   - Grid size is defined in configuration file - config/config.json
