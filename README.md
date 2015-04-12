@@ -57,7 +57,7 @@ Board Game with random game pieces in which a player can move left, right, up an
 ### How to Run the Game
 As developed with GO, the application needs to be compiled before running.
 ##### 1. OS X 64-bit (Yosemite) Executable
-  - https://github.com/ekkapob/gamegrid/raw/master/runnable/gamegrid-osx-64bit.zip
+  - https://github.com/ekkapob/gamegrid/raw/master/executable/gamegrid-osx-64bit.zip
 ```
 # gamegrid-osx-64bit directory
 $ ./gamegrid
