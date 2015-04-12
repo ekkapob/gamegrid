@@ -58,7 +58,7 @@ Board Game with random game pieces in which a player can move left, right, up an
 As developed with GO, the application needs to be compiled before running.
 ##### 1. OS X 64-bit (Yosemite) Executable
   - https://github.com/ekkapob/gamegrid/raw/master/executable/gamegrid-osx-64bit.zip
-```
+```sh
 # gamegrid-osx-64bit directory
 $ ./gamegrid
 ```
@@ -68,7 +68,7 @@ For other operating systems, source code compilation is needed.
 ##### 2. Compile from source
 1. Install GO from [Golang]
 2. Create folder structure and Set up environment
-```
+```sh
 $ mkdir $HOME/go
 $ cd $HOME/go
 $ mkdir bin pkg src
