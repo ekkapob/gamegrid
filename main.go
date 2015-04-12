@@ -11,7 +11,7 @@ import (
 func loadConfig(url string) (config Config, err error) {
 	file, e := ioutil.ReadFile(url)
 	if e != nil {
-		return config, errors.New(fmt.Sprint("Error: can't load configuration file", url))
+		return config, errors.New(fmt.Sprint("Error: can't load configuration file ", url))
 	}
 	json.Unmarshal(file, &config)
 	return config, nil
